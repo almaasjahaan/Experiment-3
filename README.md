@@ -14,7 +14,31 @@
 7. Stop the program. 
 
 ## Program
+Name: M ALMAAS JAHAAN 
+
+Register Number: 212224230016
+```
+num = int(input("Enter a number: "))
+
+if num <= 1:
+    print(f"{num} is NOT a Prime number")
+else:
+    is_prime = True
+    for i in range(2, int(num**0.5) + 1):
+        if num % i == 0:
+            is_prime = False
+            break
+
+    if is_prime:
+        print(f"{num} is a Prime number")
+    else:
+        print(f"{num} is NOT a Prime number")
+
+```
 
 ## Output
+<img width="482" height="379" alt="image" src="https://github.com/user-attachments/assets/c9d3e2d2-fab1-4827-9641-d35e2583655c" />
+<img width="427" height="374" alt="image" src="https://github.com/user-attachments/assets/4b6f722d-1ac9-4177-b7a1-7e2408686b68" />
 
 ## Result
+Thus, the python program to check the number is prime or not and inspect for failures. 
